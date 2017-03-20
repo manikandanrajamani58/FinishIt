@@ -1,0 +1,27 @@
+ext {
+    versions = [
+            sourceCompatibility: JavaVersion.VERSION_1_7,
+            targetCompatibility: JavaVersion.VERSION_1_7,
+            androidSdk         : [
+                    compile   : 25,
+                    target    : 25,
+                    min       : 16,
+                    buildTools: '25.0.2'
+            ],
+            supportLibrary     : '25.2.0',
+    ]
+
+    gradlePlugins = [
+
+    ]
+
+    libraries = [
+            app    : [],
+            test   : [
+                    junit: "junit:junit:4.12"
+            ],
+            support: [
+                    appcompat  : "com.android.support:appcompat-v7:${versions.supportLibrary}",
+            ]
+    ]
+}
