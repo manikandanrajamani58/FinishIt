@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "14070255411",
+    "firebase_url": "https://finishit-82dbe.firebaseio.com",
+    "project_id": "finishit-82dbe",
+    "storage_bucket": "finishit-82dbe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14070255411:android:af942b599f60c667",
+        "android_client_info": {
+          "package_name": "com.mobileseva.finishit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14070255411-l646o8fio829kcg5c2b5ih94ghkp6qd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiVn1eRVYWFvXEm2ek1eKaIVzQ423D9E8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
